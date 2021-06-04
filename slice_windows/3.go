@@ -1,3 +1,4 @@
+type void struct{}
 func lengthOfLongestSubstring(s string) int {
     look_up := make(map[byte]void)
 	var member void
