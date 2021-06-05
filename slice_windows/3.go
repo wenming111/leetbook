@@ -1,3 +1,7 @@
+// 基本滑动窗口题型
+// 遍历数组，每次添加最右的元素，并判断当前窗口内是否包含此元素
+// 如果包含 则一直右移窗口的左边界（一个while实现）
+// 最后判断结果
 type void struct{}
 func lengthOfLongestSubstring(s string) int {
     look_up := make(map[byte]void)
